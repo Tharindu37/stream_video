@@ -1,0 +1,7 @@
+tunnel: 9b999be7-b9f2-440a-ba64-455799016679
+credentials-file: C:\Users\YOUR_USERNAME\.cloudflared\9b999be7-b9f2-440a-ba64-455799016679.json
+
+ingress:
+  - hostname: tharindu-lakshan.myfixedstream.com
+    service: http://localhost:5000
+  - service: http_status:404
